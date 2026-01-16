@@ -3,12 +3,8 @@ sudo tee /etc/keyd/default.conf << 'EOF'
 *
 
 [main]
-# Command key becomes the "Ctrl" for shortcuts
 leftmeta = layer(mac_cmd)
 rightmeta = layer(mac_cmd)
-
-# Physical Ctrl stays as Ctrl (default, no remap needed)
-# Physical Alt/Option for word navigation
 leftalt = layer(mac_nav)
 
 [mac_nav]
@@ -25,8 +21,8 @@ a = C-a
 s = C-s
 z = C-z
 q = C-q
-w = C-w
 t = C-t
+w = C-w
 n = C-n
 o = C-o
 f = C-f
@@ -43,7 +39,5 @@ left = home
 right = end
 up = C-home
 down = C-end
-backspace = S-home delete
 EOF
-
 sudo systemctl restart keyd
