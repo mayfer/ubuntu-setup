@@ -1,5 +1,6 @@
 gsettings set org.gnome.Ptyxis.Shortcuts new-window '<ctrl>n'
 gsettings set org.gnome.Ptyxis.Shortcuts new-tab '<ctrl>t'
 gsettings set org.gnome.Ptyxis.Shortcuts close-tab '<ctrl>w'
-gsettings set org.gnome.Ptyxis.Shortcuts move-tab-left '<ctrl><shift>braceleft'
-gsettings set org.gnome.Ptyxis.Shortcuts move-tab-right '<ctrl><shift>braceright'
+gsettings set org.gnome.Ptyxis.Shortcuts paste-clipboard '<ctrl>v'
+gsettings set org.gnome.Ptyxis.Shortcuts move-previous-tab '<ctrl><shift>bracketleft'
+gsettings set org.gnome.Ptyxis.Shortcuts move-next-tab '<ctrl><shift>bracketright'

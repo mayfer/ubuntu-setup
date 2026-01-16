@@ -6,6 +6,12 @@ sudo tee /etc/keyd/default.conf << 'EOF'
 leftmeta = layer(mac_cmd)
 rightmeta = layer(mac_cmd)
 leftalt = layer(mac_nav)
+leftshift+leftmeta = layer(mac_cmd_shift)
+rightshift+rightmeta = layer(mac_cmd_shift)
+
+[mac_cmd_shift]
+[ = C-S-[
+] = C-S-]
 
 [mac_nav]
 left = C-left
